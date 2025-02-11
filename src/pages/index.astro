@@ -1,0 +1,21 @@
+---
+// import Welcome from '../components/Welcome.astro';
+import Login from '../components/auth/login';
+
+import Layout from '../layouts/Layout.astro';
+
+
+---
+
+<Layout>
+	  
+	<section class="flex flex-col py-8 justify-center items-center ">
+		<div class="flex flex-col justify-center items-center py-5">
+			<h2 class='text-3xl font-bold text-center'>Bienvenidad Mi Amor</h2>
+			<p class='text-center px-2 md:w-3/5'>Instrucciones: Hola mi amor 💖, para acceder a tu sorpresa, necesitas recordar una fecha muy especial para nosotros. Piensa en el día en que nuestro amor comenzó a brillar más fuerte. La clave es esa fecha en formato día-mes-año, sin guiones ni espacios. Por ejemplo, si nuestra fecha especial fuera el 14 de febrero de 2025, la clave sería 14022025. ¡Te amo! ❤️</p>
+		</div>
+		<Login client:load />
+	</section>
+	
+	
+</Layout>
