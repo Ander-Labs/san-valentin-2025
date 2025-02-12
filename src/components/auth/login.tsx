@@ -13,9 +13,9 @@ export default function Login() {
   const handleSubmit = () => {
     if (input === "04122024") {
       // Redirección en Astro
-      window.location.href = "/love-letter"; // Cambia esto por la ruta deseada
+      window.location.href = "/love-letter"; 
     } else {
-      setError("Contraseña incorrecta");
+      setError("Como no vas ha recordar una fecha tan especial😞😞...");
     }
   };
 
