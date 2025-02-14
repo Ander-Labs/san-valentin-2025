@@ -13,7 +13,7 @@ export default function Login() {
   const handleSubmit = () => {
     if (input === "04122024") {
       // Redirección en Astro
-      window.location.href = "/love-letter"; 
+      window.location.href = "/garden";
     } else {
       setError("Como no vas ha recordar una fecha tan especial😞😞...");
     }

@@ -1,6 +1,6 @@
 ---
-import CountdownTimer from "../components/timer/CountdownTimer";
-import Calendli from "../components/timer/calendli.astro";
+import Letter from "../components/letter/Letter.astro";
+import Navbar from "../components/navbar.astro";
 import Layout from "../layouts/Layout.astro";
 
 
@@ -9,6 +9,8 @@ import Layout from "../layouts/Layout.astro";
 <Layout>
 
 
-    <CountdownTimer client:load targetDate="2025-02-14T00:00:00" />
-    <Calendli/>
+    <!-- <CountdownTimer client:load targetDate="2025-02-14T00:00:00" /> -->
+    <!-- <Calendli/> -->
+    <Letter />
+    <Navbar/>
 </Layout>

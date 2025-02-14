@@ -10,7 +10,7 @@ export default function FloatingHearts() {
   }));
   return (
     <>
-      <div className="relative w-full min-h-screen bg-pink-200 overflow-hidden">
+      <div className="relative w-full min-h-screen bg-pink-100 overflow-hidden">
         {hearts.map((heart) => (
           <div
             key={heart.id}
